@@ -4,8 +4,8 @@ require "bundler/setup"
 require 'fileutils'
 
 ENV['RACK_ENV'] = 'test'
-ENV['GITHUB_CLIENT_ID'] = "CLIENT_ID"
-ENV['GITHUB_CLIENT_SECRET'] = 'CLIENT_SECRET'
+ENV['GITHUB_CLIENT_ID'] = "5332c66284f88999f72e"
+ENV['GITHUB_CLIENT_SECRET'] = 'd37dcd1db7fb4d49637428a793b81c6a0c13e974'
 $:.push File.join(File.dirname(__FILE__), '..', 'lib')
 
 require 'rack/test'
