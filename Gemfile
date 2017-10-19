@@ -3,7 +3,6 @@ source "https://rubygems.org"
 
 
 gem 'add-to-org', '~> 3.0', '>= 3.0.1'
-gem 'add-to-org'
 
 group :development, :test do
   gem 'rspec'
