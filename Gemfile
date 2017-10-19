@@ -1,9 +1,9 @@
 
 source "https://rubygems.org"
 
-gemspec
-gem 'add-to-org'
 
+gem 'add-to-org'
+gemspec
 group :development, :test do
   gem 'rspec'
   gem 'rack-test'
