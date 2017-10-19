@@ -1,10 +1,8 @@
+
 source "https://rubygems.org"
 
-ruby File.read(".ruby-version").strip
+gemspec
 gem 'add-to-org'
-gem 'add-to-org', "~> 3.0"
-gem 'rake'
-
 require 'add-to-org'
 run AddToOrg::App
 
