@@ -1,4 +1,4 @@
-require 'add-to-org'
+require 'add-to-org' , '>= 3.0.1'
 
 # Optional: Uncomment the final line to use your own views folder
 # (e.g., for serving custom ERB templates from `./views`). For more
