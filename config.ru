@@ -1,2 +1,2 @@
-require 'add-to-org' , '>= 3.0.1'
+require 'add-to-org'
 run AddToOrg::App
