@@ -15,7 +15,7 @@ describe "logged in user" do
   end
 
   it "denies acccess to invalid users" do
-    with_env "GITHUB_ORG_ID", "some_org" do
+    with_env "GITHUB_ORG_ID", "Oklahackers" do
       stub_request(:get, "https://api.github.com/orgs/some_org/members/benbaltertest").
       to_return(:status => 404)
 
@@ -29,7 +29,7 @@ describe "logged in user" do
   end
 
   it "adds valid users" do
-    with_env "GITHUB_ORG_ID", "some_org" do
+    with_env "GITHUB_ORG_ID", "Oklahackers" do
       stub_request(:get, "https://api.github.com/orgs/some_org/members/benbaltertest").
       to_return(:status => 404)
 
